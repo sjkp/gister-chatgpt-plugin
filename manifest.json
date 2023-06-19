@@ -19,7 +19,7 @@
     "url": "PLUGIN_HOSTNAME/swagger/v1/swagger.yaml",
     "is_user_authenticated": false
   },
-  "logo_url": "PLUGIN_HOSTNAME/.well-known/logo.png",
+  "logo_url": "PLUGIN_HOSTNAME/logo.png",
   "contact_email": "support@sjkp.dk",
   "legal_info_url": "PLUGIN_HOSTNAME/legal"
 }
