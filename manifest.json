@@ -1,0 +1,25 @@
+﻿{
+  "schema_version": "v1",
+  "name_for_human": "Gister",
+  "name_for_model": "gister",
+  "description_for_human": "Plugin for saving code to github as a gist.",
+  "description_for_model": "Plugin for saving code to github as a gist.",
+  "auth": {
+    "type": "oauth",
+    "client_url": "https://github.com/login/oauth/authorize",
+    "scope": "user gist",
+    "authorization_url": "https://github.com/login/oauth/access_token",
+    "authorization_content_type": "application/x-www-form-urlencoded",
+    "verification_tokens": {
+      "openai": "PLUGIN_VALIDATIONTOKEN"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "PLUGIN_HOSTNAME/swagger/v1/swagger.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "PLUGIN_HOSTNAME/.well-known/logo.png",
+  "contact_email": "support@sjkp.dk",
+  "legal_info_url": "PLUGIN_HOSTNAME/legal"
+}
